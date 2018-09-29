@@ -1,0 +1,3283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version last-->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="endowmentIllustrationVietnamiese" pageWidth="1050" pageHeight="863" orientation="Landscape" columnWidth="585" leftMargin="30" rightMargin="30" topMargin="20" bottomMargin="30" resourceBundle="messages-rest_es_vn" uuid="d0ab4163-6eea-4ce4-93f2-0a1537b0d7df">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter 1"/>
+	<property name="net.sf.jasperreports.subreport.runner.factory" value="net.sf.jasperreports.engine.fill.JRContinuationSubreportRunnerFactory"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="AUMB" hAlign="Left" vAlign="Middle" fontSize="12" isBold="true" isItalic="false" isUnderline="false" pdfFontName="D:/GSP_GSvP_ALL/GSP_Vietnam_Drop3/DataCenter_HKG/Tenant_VIETNAM/ExternalConfigRes/jasperReportTemplates/font/texgyreadventor-bold.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true">
+		<box padding="0">
+			<pen lineWidth="0.0"/>
+		</box>
+	</style>
+	<style name="AUM" hAlign="Left" fontSize="10" isBold="false" isItalic="false" isUnderline="false" pdfFontName="D:/GSP_GSvP_ALL/GSP_Vietnam_Drop3/DataCenter_HKG/Tenant_VIETNAM/ExternalConfigRes/jasperReportTemplates/font/texgyreadventor-regular_1.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true">
+		<box padding="0">
+			<pen lineWidth="0.0"/>
+		</box>
+	</style>
+	<style name="AUMBC" hAlign="Center" fontSize="10" isBold="true" isItalic="false" isUnderline="false" pdfFontName="D:/GSP_GSvP_ALL/GSP_Vietnam_Drop3/DataCenter_HKG/Tenant_VIETNAM/ExternalConfigRes/jasperReportTemplates/font/texgyreadventor-bold.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true">
+		<box padding="0">
+			<pen lineWidth="0.0"/>
+		</box>
+	</style>
+	<style name="AUMBS" hAlign="Left" fontSize="10" isBold="true" isItalic="false" isUnderline="false" pdfFontName="D:/GSP_GSvP_ALL/GSP_Vietnam_Drop3/DataCenter_HKG/Tenant_VIETNAM/ExternalConfigRes/jasperReportTemplates/font/texgyreadventor-bold.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true">
+		<box padding="0">
+			<pen lineWidth="0.0"/>
+		</box>
+	</style>
+	<style name="AUMBI" hAlign="Left" vAlign="Middle" fontSize="10" isBold="true" isItalic="true" isUnderline="false" pdfFontName="D:/GSP_GSvP_ALL/GSP_Vietnam_Drop3/DataCenter_HKG/Tenant_VIETNAM/ExternalConfigRes/jasperReportTemplates/font/texgyreadventor-bolditalic.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true">
+		<box padding="0">
+			<pen lineWidth="0.0"/>
+		</box>
+	</style>
+	<style name="AUMI" hAlign="Left" fontSize="10" isBold="false" isItalic="true" isUnderline="false" pdfFontName="D:/GSP_GSvP_ALL/GSP_Vietnam_Drop3/DataCenter_HKG/Tenant_VIETNAM/ExternalConfigRes/jasperReportTemplates/font/texgyreadventor-italic.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true">
+		<box padding="0">
+			<pen lineWidth="0.0"/>
+		</box>
+	</style>
+	<style name="Table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 5_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 5_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 5_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 6_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 6_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 6_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 7_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 7_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 7_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 8_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 8_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 8_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="Dataset1" uuid="36f399ae-3419-4af1-a9b1-fbb58dd61d06">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="illustration"/>
+		<queryString language="xPath">
+			<![CDATA[/map/EPBenefitQuotation/]]>
+		</queryString>
+		<field name="policyYear" class="java.lang.String">
+			<fieldDescription><![CDATA[policyYear]]></fieldDescription>
+		</field>
+		<field name="dividendNonGuaranteed" class="java.lang.String">
+			<fieldDescription><![CDATA[dividendNonGuaranteed]]></fieldDescription>
+		</field>
+		<field name="accumulatedDividendNonGuaranteed" class="java.lang.String">
+			<fieldDescription><![CDATA[accumulatedDividendNonGuaranteed]]></fieldDescription>
+		</field>
+		<field name="totalAccumulatedGurantedAmt" class="java.lang.String">
+			<fieldDescription><![CDATA[totalAccumulatedGurantedAmt]]></fieldDescription>
+		</field>
+		<field name="guaranteedCashVal" class="java.lang.String">
+			<fieldDescription><![CDATA[guaranteedCashVal]]></fieldDescription>
+		</field>
+		<field name="reserves" class="java.lang.String">
+			<fieldDescription><![CDATA[reserves]]></fieldDescription>
+		</field>
+		<field name="sumAssured" class="java.lang.String">
+			<fieldDescription><![CDATA[sumAssured]]></fieldDescription>
+		</field>
+		<field name="totalLifeBenefit" class="java.lang.String">
+			<fieldDescription><![CDATA[totalLifeBenefit]]></fieldDescription>
+		</field>
+		<field name="premium" class="java.lang.String">
+			<fieldDescription><![CDATA[premium]]></fieldDescription>
+		</field>
+		<field name="totalPremium" class="java.lang.String">
+			<fieldDescription><![CDATA[totalPremium]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="Dataset4" uuid="f39b62ec-929d-40fa-8593-f8a281de72c8">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter "/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+	</subDataset>
+	<subDataset name="Dataset2" uuid="6fdde49c-aba3-49f9-b036-7e6eff3228db">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter "/>
+		<queryString language="xPath">
+			<![CDATA[/map/EPBenefitQuotation]]>
+		</queryString>
+		<field name="policyYear" class="java.lang.String">
+			<fieldDescription><![CDATA[policyYear]]></fieldDescription>
+		</field>
+		<field name="insuredAge" class="java.lang.String">
+			<fieldDescription><![CDATA[insuredAge]]></fieldDescription>
+		</field>
+		<field name="premium" class="java.lang.String">
+			<fieldDescription><![CDATA[premium]]></fieldDescription>
+		</field>
+		<field name="totalPremium" class="java.lang.String">
+			<fieldDescription><![CDATA[totalPremium]]></fieldDescription>
+		</field>
+		<field name="sumAssured" class="java.lang.String">
+			<fieldDescription><![CDATA[sumAssured]]></fieldDescription>
+		</field>
+		<field name="maturityBenefit" class="java.lang.String">
+			<fieldDescription><![CDATA[maturityBenefit]]></fieldDescription>
+		</field>
+		<field name="guaranteedCashVal" class="java.lang.String">
+			<fieldDescription><![CDATA[guaranteedCashVal]]></fieldDescription>
+		</field>
+		<field name="benTerm" class="java.lang.String">
+			<fieldDescription><![CDATA[/map/benTerm]]></fieldDescription>
+		</field>
+	</subDataset>
+	<parameter name="PRODUCT" class="java.lang.String"/>
+	<parameter name="GENDER" class="java.lang.String"/>
+	<parameter name="MODEOFPAYMENT" class="java.lang.String"/>
+	<parameter name="illustrationNumber" class="java.lang.String"/>
+	<queryString language="XPath">
+		<![CDATA[/map/EPBenefitQuotation]]>
+	</queryString>
+	<field name="productName" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/productName]]></fieldDescription>
+	</field>
+	<field name="productNamePA" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/productNamePA]]></fieldDescription>
+	</field>
+	<field name="productNameCI" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/productNameCI]]></fieldDescription>
+	</field>
+	<field name="sumassured" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/sumassured]]></fieldDescription>
+	</field>
+	<field name="sumassuredPA" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/sumassuredPA]]></fieldDescription>
+	</field>
+	<field name="sumassuredCI" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/sumassuredCI]]></fieldDescription>
+	</field>
+	<field name="annualBasicPremium" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/annualBasicPremium]]></fieldDescription>
+	</field>
+	<field name="annualBasicPremiumPA" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/annualBasicPremiumPA]]></fieldDescription>
+	</field>
+	<field name="annualBasicPremiumCI" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/annualBasicPremiumCI]]></fieldDescription>
+	</field>
+	<field name="totalPremium" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/totalPremium]]></fieldDescription>
+	</field>
+	<field name="gender" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/gender]]></fieldDescription>
+	</field>
+	<field name="insuredName" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/insuredName]]></fieldDescription>
+	</field>
+	<field name="age" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/age]]></fieldDescription>
+	</field>
+	<field name="insuredDateOfBirth" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/insuredDateOfBirth]]></fieldDescription>
+	</field>
+	<field name="premTerm" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/premTerm]]></fieldDescription>
+	</field>
+	<field name="benTerm" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/benTerm]]></fieldDescription>
+	</field>
+	<field name="lastName" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/lastName]]></fieldDescription>
+	</field>
+	<field name="planName" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/planName]]></fieldDescription>
+	</field>
+	<field name="modeOfPayment" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/modeOfPayment]]></fieldDescription>
+	</field>
+	<field name="imagePath" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/imagePath]]></fieldDescription>
+	</field>
+	<field name="isPresentApplcntImage" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/isPresentApplcntImage]]></fieldDescription>
+	</field>
+	<field name="isPresentImage_1" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/isPresentImage_1]]></fieldDescription>
+	</field>
+	<field name="signatureImage_1" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/signatureImage_1]]></fieldDescription>
+	</field>
+	<field name="signOfApplicant_1" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/signOfApplicant_1]]></fieldDescription>
+	</field>
+	<field name="yearlyPremTerm" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/yearlyPremTerm]]></fieldDescription>
+	</field>
+	<field name="halfYearPremTerm" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/halfYearPremTerm]]></fieldDescription>
+	</field>
+	<field name="quarterlyPremTerm" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/quarterlyPremTerm]]></fieldDescription>
+	</field>
+	<field name="monthlyPremTerm" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/monthlyPremTerm]]></fieldDescription>
+	</field>
+	<field name="agentCode" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/agentCode]]></fieldDescription>
+	</field>
+	<field name="agentName" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/agentName]]></fieldDescription>
+	</field>
+	<field name="/benTerm" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/benTerm]]></fieldDescription>
+	</field>
+	<field name="expiryDateValue" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/expiryDateValue]]></fieldDescription>
+	</field>
+	<field name="currentDateValue" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/currentDateValue]]></fieldDescription>
+	</field>
+	<field name="applicantName" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/applicantName]]></fieldDescription>
+	</field>
+	<field name="totalMaturityBenefit" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/totalMaturityBenefit]]></fieldDescription>
+	</field>
+	<field name="signatureImage_2" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/signatureImage_2]]></fieldDescription>
+	</field>
+	<field name="quatation_date" class="java.lang.String">
+		<fieldDescription><![CDATA[/map/quatation_date]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="50">
+			<frame>
+				<reportElement x="5" y="5" width="981" height="45" uuid="a236bbfd-166d-4144-98bc-d89b9209c267">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="2.0"/>
+					<leftPen lineWidth="2.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="2.0"/>
+				</box>
+			</frame>
+			<frame>
+				<reportElement x="0" y="0" width="991" height="50" uuid="1f05dd1c-21b2-42cb-aa71-067a9c7c3e81">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+			</frame>
+			<image vAlign="Bottom">
+				<reportElement x="750" y="0" width="200" height="50" uuid="c508c94c-1b2d-4fbe-830f-82274d85ac32">
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA[$F{imagePath}.trim()+"BIDVMetlife_newLogo.bmp"]]></imageExpression>
+			</image>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="716">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement x="5" y="0" width="981" height="716" uuid="8581e7b2-b424-4d0f-8186-5dae265acc21">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<leftPen lineWidth="2.0"/>
+					<rightPen lineWidth="2.0"/>
+				</box>
+			</frame>
+			<frame>
+				<reportElement x="0" y="0" width="991" height="716" uuid="21dfb7ab-e011-4875-b37c-c25eb0119bc4">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textField>
+					<reportElement style="AUMBS" x="598" y="121" width="133" height="20" uuid="71270a97-5fe7-4041-984e-d6ab5c3c63d1">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ULEBDateOfBirth}+": " + $F{insuredDateOfBirth}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="752" y="120" width="170" height="20" uuid="71270a97-5fe7-4041-984e-d6ab5c3c63d1">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA["( "+$R{DC.HKG.SALES.VNM.agePDF}+"   "+$F{age}+","+"   "+$P{GENDER}+" )"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="271" y="170" width="56" height="20" uuid="81cc26be-4f55-4d1d-8d1a-4558199a0c3a">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ULP2Years}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="381" y="170" width="130" height="20" uuid="9764d106-ed16-43cd-8c24-96ebc83c99e5">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.premiumTermEN}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMB" x="350" y="0" width="328" height="20" uuid="1aacb147-4d52-4b38-bc7b-5a178a881b72">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Center">
+						<font isUnderline="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.IllustrationProposalSummary}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement style="AUMBS" x="232" y="80" width="348" height="30" uuid="7d47d214-4446-4e5d-bc59-cc61eefa19c1"/>
+					<textFieldExpression><![CDATA[$F{applicantName}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="false">
+					<reportElement style="AUMBS" x="522" y="170" width="24" height="20" uuid="f96e9b2e-4611-4732-a273-b3605d61b821">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$F{premTerm}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="232" y="60" width="348" height="20" uuid="df24ef48-baa6-443f-aceb-2ebc255e66ab">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENCompanyName}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="232" y="39" width="293" height="20" uuid="c56923c5-bc99-4520-a38f-4f245c4effee"/>
+					<textFieldExpression><![CDATA[$P{PRODUCT}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="549" y="170" width="56" height="20" uuid="cbfae5a6-8be7-4b08-bf68-73174d56ed8a">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ULP2Years}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement style="AUMBS" x="233" y="170" width="24" height="20" uuid="8a5f28af-c4bb-434e-a521-6e0aafe98ddd">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$F{benTerm}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement style="AUMBS" x="233" y="120" width="353" height="40" uuid="a607eae0-f120-46cf-95a4-2d75b1ddff1e"/>
+					<textFieldExpression><![CDATA[$F{insuredName}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="32" y="290" width="247" height="20" forecolor="#21409A" uuid="83043278-de55-48e6-bfeb-e461140450e0">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.summaryBenefits}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMI" x="32" y="210" width="921" height="60" uuid="42edc135-91a0-4360-b309-1ed11f30e658">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Justified"/>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENP1Content}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="71" y="360" width="850" height="20" forecolor="#21409A" uuid="faa05d22-ae4f-4342-954e-1cfdd9a8e24a">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font size="10" isUnderline="false"/>
+						<paragraph leftIndent="10"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.benefitProducts}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement style="AUM" x="330" y="380" width="275" height="25" uuid="4db0a92d-6464-448d-9b07-0eab5a15f4ce">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<paragraph leftIndent="5" rightIndent="15"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{sumassured}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="72" y="340" width="258" height="20" uuid="1a75e5a9-61d3-4408-a026-db3585841581">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<paragraph lineSpacing="Single" leftIndent="10"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.eventInsurance}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUM" x="330" y="435" width="275" height="50" uuid="cd318fee-d181-496e-8ce7-72201ab3d6d0">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<paragraph lineSpacing="1_1_2" leftIndent="5" rightIndent="15"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENtable8}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUM" x="605" y="405" width="316" height="30" uuid="8e972562-e515-4675-85f0-561cb71adbc6">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<paragraph lineSpacing="Single" leftIndent="5" rightIndent="15"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENtable9}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUM" x="71" y="405" width="259" height="30" uuid="f66ecd72-4cbd-445f-a5bf-adbe07129777">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<paragraph leftIndent="5" rightIndent="15"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENtable6}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement style="AUM" x="605" y="380" width="316" height="25" uuid="c0abc760-6796-4fe5-bfd0-08fe89b1ece2">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement>
+						<paragraph leftIndent="5" rightIndent="15"/>
+					</textElement>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUM" x="71" y="380" width="259" height="25" uuid="fbd17e76-a880-4a8c-9e0c-1eb45a762016">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<paragraph lineSpacing="Single" firstLineIndent="0" leftIndent="5" rightIndent="15"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.mortality}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="605" y="340" width="316" height="20" uuid="ca4d4f6c-c0c6-433f-9e1f-cd8bf2685d9c">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<paragraph lineSpacing="Single" leftIndent="10"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.TermP3Remarks}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUM" x="605" y="435" width="316" height="50" uuid="8c7a8391-8a29-4977-a0f8-1f901f79f31b">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement verticalAlignment="Middle" markup="none">
+						<paragraph leftIndent="10" rightIndent="20"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENtable10}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="331" y="405" width="275" height="30" uuid="af269b26-b572-410e-ab21-a6093757cf4f">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<paragraph lineSpacing="Single" leftIndent="10"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.insuranceBenefits}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUM" x="71" y="435" width="259" height="50" uuid="c981c6a8-a329-426b-a6fa-6f4f2d88dae1">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<paragraph lineSpacing="Single" leftIndent="5" rightIndent="15"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENtable7}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement style="AUM" x="330" y="340" width="274" height="20" uuid="13ee19ac-b2f2-46b8-b020-2abfc1a6b89b">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<paragraph leftIndent="5" rightIndent="15"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{totalMaturityBenefit}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="35" y="610" width="356" height="15" forecolor="#000000" uuid="bd49cc22-1318-48fe-b142-b91ddd0ea9be">
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement>
+						<font isBold="true" isUnderline="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.BidvMetlife}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="75" y="630" width="9" height="15" uuid="8969b110-41b0-469a-8b31-38a505a96642">
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement>
+						<font size="11" isBold="true"/>
+					</textElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField>
+					<reportElement style="AUM" x="82" y="630" width="447" height="15" forecolor="#000000" uuid="033565f5-1ec0-4c15-bc9e-1d4a92b87827">
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.IllustrationCompanyAddress}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="641" y="630" width="40" height="15" uuid="7983f36d-9453-46f6-838b-a6267231248d">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<text><![CDATA[Hotline]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="82" y="645" width="180" height="15" forecolor="#0000FF" uuid="0b0c00b3-7b43-4b56-a379-f30a2401cb14">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement>
+						<font isUnderline="true"/>
+					</textElement>
+					<text><![CDATA[www.bidvmetlife.com.vn]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="693" y="630" width="150" height="15" uuid="290fd057-56a8-428e-9b06-5a4493d920db">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement>
+						<font isUnderline="false"/>
+					</textElement>
+					<text><![CDATA[84 4 6282 0606]]></text>
+				</staticText>
+				<textField>
+					<reportElement style="AUMBS" x="640" y="609" width="210" height="15" forecolor="#000000" uuid="1f50859b-660d-4158-ab0e-203d97a2ecc1">
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement>
+						<font isBold="true" isUnderline="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENContactHeader}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="682" y="645" width="9" height="15" uuid="f3eb4a83-6793-44c0-ab3c-626bbfbd66cf">
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement>
+						<font size="11" isBold="true"/>
+					</textElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="682" y="630" width="9" height="15" uuid="0bb3a404-c193-4535-a39f-77c270507234">
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement>
+						<font size="11" isBold="true"/>
+					</textElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUM" x="34" y="630" width="40" height="15" forecolor="#000000" uuid="6c225368-f216-4542-a2fc-689da6b5ac84">
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.appAddress}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUM" x="34" y="645" width="40" height="15" forecolor="#000000" uuid="e4c1b651-0b95-4620-be23-6a21d65de22d">
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA["Website"]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="75" y="645" width="9" height="15" uuid="22b8df5b-91dd-4042-b209-89d50f988c70">
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement>
+						<font size="11" isBold="true"/>
+					</textElement>
+					<text><![CDATA[:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="642" y="645" width="40" height="15" uuid="22a031e9-0484-410b-b8c7-6cea151f5586">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<text><![CDATA[Email]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="691" y="645" width="150" height="15" forecolor="#0000FF" uuid="c1d7651e-ebe4-4d00-831f-ac019f3ed6a5">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement>
+						<font isUnderline="true"/>
+					</textElement>
+					<text><![CDATA[wecare@bidvmetlife.com.vn]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="32" y="170" width="165" height="20" uuid="d2434315-d98f-496b-9cb6-b3d9ac0350f2">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.policyTermEN}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="31" y="40" width="165" height="18" uuid="8eaa8f12-4097-4352-aaa7-c4c992d02c60">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENNameOfProduct}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="31" y="80" width="165" height="20" uuid="fa85a8dc-be4b-4335-a1ea-f4e03e927392">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.policyHolderEN}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="32" y="121" width="165" height="20" uuid="d6ca4f18-b5bf-4aee-a6af-7eff7f38ecce">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENProposedInsuredName}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="31" y="61" width="165" height="16" uuid="b9be5ad4-f796-4968-906d-e2c1be539a90">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENNameOfInsuranceCompany}]]></textFieldExpression>
+				</textField>
+				<componentElement>
+					<reportElement x="402" y="59" width="100" height="30" uuid="d57afadf-6a86-4915-bb67-ed406e46764b"/>
+					<hc:html xmlns:hc="http://jasperreports.sourceforge.net/htmlcomponent" xsi:schemaLocation="http://jasperreports.sourceforge.net/htmlcomponent http://jasperreports.sourceforge.net/xsd/htmlcomponent.xsd" scaleType="RetainShape" horizontalAlign="Left" verticalAlign="Middle">
+						<hc:htmlContentExpression><![CDATA["<p style='background-color:yellow;'>HTML paragraph</p>"]]></hc:htmlContentExpression>
+					</hc:html>
+				</componentElement>
+			</frame>
+		</band>
+		<band height="716">
+			<frame>
+				<reportElement x="5" y="0" width="981" height="716" uuid="2ea94d90-27e3-4a99-b2c0-470c54da27cb">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<leftPen lineWidth="2.0"/>
+					<rightPen lineWidth="2.0"/>
+				</box>
+			</frame>
+			<frame>
+				<reportElement x="0" y="0" width="991" height="716" uuid="193c1e12-a0c4-41c9-8d8f-33b7b1831de9">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Double"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="657" y="230" width="163" height="18" uuid="ab35d12b-2a57-4b48-9735-155fdf0912e5">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font isUnderline="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.EN.ENP2InitialAnnualPremium}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMI" x="725" y="210" width="95" height="15" uuid="e18cbf0a-aa24-444a-b2b4-d14f1d0e6749">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENUnit}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="657" y="260" width="163" height="20" uuid="af3b094b-116f-4c30-b6de-2d3c5f3f87f5">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Right"/>
+					<textFieldExpression><![CDATA[$F{annualBasicPremium}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="655" y="312" width="163" height="19" uuid="370fb4e1-08a2-4832-9b49-aa3252791d90">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{annualBasicPremium}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="30" y="70" width="165" height="18" uuid="e6b6821f-6668-497d-a7d6-3f818f3d0465">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENNameOfProduct}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="30" y="91" width="165" height="16" uuid="e59644aa-cd81-40de-a6d4-01f921182d30">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENNameOfInsuranceCompany}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="30" y="111" width="165" height="20" uuid="daa84919-7cf3-4d27-956c-8449a60d3246">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.policyHolderEN}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="30" y="131" width="165" height="20" uuid="9e2859bd-eebc-4bf0-befe-24c65d79b056">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENProposedInsuredName}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="30" y="156" width="165" height="20" uuid="32eaf501-c7c0-4be9-b948-63b0d0a2f3b5">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.policyTermEN}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="233" y="70" width="293" height="20" uuid="313dc504-9a9c-43dc-b218-f722bf60e7b1">
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$P{PRODUCT}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="233" y="91" width="296" height="20" uuid="0042965e-1df9-45e4-a15f-c3a47ae9bd2b">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENCompanyName}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement style="AUMBS" x="233" y="110" width="246" height="20" uuid="a1e26aa0-6da6-46ca-b50c-71b9d092f2dd">
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$F{applicantName}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement style="AUMBS" x="233" y="131" width="147" height="20" uuid="4d614224-b0c4-40fe-9448-0b03bb457c8b">
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$F{insuredName}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement style="AUMBS" x="232" y="156" width="24" height="20" uuid="e74eb106-f3eb-4acb-84f1-3b62cf1dcaca">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$F{benTerm}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="261" y="156" width="56" height="20" uuid="962b8a16-691c-4428-a69f-6fd917f23cea">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ULP2Years}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="388" y="156" width="130" height="20" uuid="2a12c562-69ee-4b30-b2de-8623d016cce7">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.premiumTermEN}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement style="AUMBS" x="521" y="156" width="24" height="20" uuid="c9838857-deee-4aa1-935e-e65b73afcdc0">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$F{premTerm}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="547" y="156" width="56" height="20" uuid="d8ad24d6-83ec-4e93-9651-75d21a441b55">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ULP2Years}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="389" y="130" width="133" height="20" uuid="71270a97-5fe7-4041-984e-d6ab5c3c63d1">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ULEBDateOfBirth}+": " + $F{insuredDateOfBirth}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="521" y="130" width="170" height="20" uuid="71270a97-5fe7-4041-984e-d6ab5c3c63d1">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA["( "+$R{DC.HKG.SALES.VNM.agePDF}+"   "+$F{age}+","+"   "+$P{GENDER}+" )"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUM" isPrintRepeatedValues="false" x="29" y="522" width="18" height="15" uuid="8bca145a-a230-4c52-ba14-211df9610d3c">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Justified">
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.CIp2Index1}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="31" y="500" width="89" height="18" uuid="ce168ff1-588b-4772-88a0-f468b0161be6">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textElement>
+						<font size="10"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENp2Content1}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUM" x="49" y="522" width="903" height="30" uuid="df74bcdb-ab63-4ac8-bedc-439f1692cffd">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Justified">
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENp2Content2a}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUM" isPrintRepeatedValues="false" x="29" y="552" width="18" height="15" uuid="bce29d65-46c2-4154-b5fd-5cf886549507">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Justified">
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.CIp2Index2}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUM" x="49" y="552" width="903" height="30" uuid="67d28783-4f70-4100-b789-902827ef72bc">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Justified">
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENp2Content2b}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUM" isPrintRepeatedValues="false" x="30" y="585" width="18" height="15" uuid="e2fe9d76-aea8-4294-bd85-b677a3c5b826">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Justified">
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.CIp2Index3}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUM" x="50" y="585" width="902" height="20" uuid="a94837db-dc98-40b0-9c52-01df7f35e3ed">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Justified">
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENp2Content2c}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUM" isPrintRepeatedValues="false" x="30" y="610" width="18" height="15" uuid="6bcc0961-7f8d-4c05-b5c2-65d114166585">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Justified">
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.CIp2Index4}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUM" x="50" y="610" width="902" height="20" uuid="8b2f1014-1fa6-459a-863b-6fd2efef7d5b">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Justified">
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENp2Content2d}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUM" isPrintRepeatedValues="false" x="31" y="635" width="18" height="15" uuid="91a606c9-f62c-41c5-96f8-5bd173c431ae">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Justified">
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.CIp2Index5}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUM" x="51" y="635" width="901" height="30" uuid="0c30f5f4-8b63-45b6-9750-d6726688f6b6">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Justified">
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENp2Content2e}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="150" y="230" width="89" height="20" uuid="1b338de3-29d1-4fe0-90c4-91983de28a8e">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENP2BaSicPlan}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="390" y="262" width="141" height="20" uuid="debfc3a0-4bcd-402c-9f74-77cd09e78243">
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Right"/>
+					<textFieldExpression><![CDATA[$F{sumassured}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="390" y="232" width="141" height="18" uuid="0bd14a3a-5b68-450f-a052-8523234f531e">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font isUnderline="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.appSumAssured}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="150" y="370" width="184" height="20" uuid="c7df1010-f92c-4771-83af-6916096e1d42">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENInitialPremium}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUM" x="150" y="260" width="173" height="20" uuid="386ec7bc-a980-4caa-9f90-f3113d76154f">
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$P{PRODUCT}.toUpperCase()]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="365" y="311" width="230" height="20" uuid="3595b61c-c1ad-4705-9b3f-28704ccd9ff0">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.EN.ENtotalPremium}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="630" y="370" width="61" height="20" uuid="878d5c7b-8bf6-4832-b1e1-f72b76e9d10f">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.appQuarterlyEN}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="631" y="400" width="110" height="15" uuid="4ad691c6-b8ac-4da2-b406-5fdba497af2c">
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{quarterlyPremTerm}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="503" y="370" width="61" height="20" uuid="1f3bc9d5-eebd-4db2-b09c-935dfee09f72">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.appSemiAnnually}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="758" y="400" width="110" height="15" uuid="df98fd19-48fe-4005-a181-502d8ac77823">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{monthlyPremTerm}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="503" y="400" width="110" height="15" uuid="cb64ae83-6c62-4ca5-b8da-15e39ca96bcb">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{halfYearPremTerm}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="368" y="400" width="110" height="15" uuid="15dc0ebd-28e1-45a3-b226-b20c7d7692c3">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{yearlyPremTerm}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="152" y="450" width="149" height="16" uuid="066a6fff-5f39-4ac6-9ec7-f4457330f075"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ULEBModeOfPaymentText}+" :"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="330" y="450" width="103" height="14" uuid="14668526-1d45-494e-9311-85ef25481c24"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{modeOfPayment}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="368" y="370" width="61" height="20" uuid="75745f8e-11dd-4f23-b123-f1f329c3b8ab">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.appYear}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="758" y="370" width="61" height="20" uuid="34907bcf-4185-4b55-ae71-e31915d0b3b4">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.appMonth}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMB" x="350" y="30" width="328" height="20" uuid="d1dd0763-99ac-4054-951e-1a0b2771ce52">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Center">
+						<font isUnderline="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.IllustrationProposalSummary}]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement x="355" y="300" width="464" height="2" forecolor="#408080" uuid="c3cffa9a-6285-44ad-8020-53d6f0553aab">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+				</line>
+			</frame>
+		</band>
+		<band height="716">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement x="0" y="0" width="991" height="716" uuid="703d5b39-eafa-4875-9d9b-b137898fff7d">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<leftPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<frame>
+					<reportElement x="5" y="0" width="981" height="716" uuid="017c791f-0409-4215-8eba-9d4f459a9043">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<leftPen lineWidth="2.0"/>
+						<rightPen lineWidth="2.0"/>
+					</box>
+					<textField isStretchWithOverflow="true">
+						<reportElement style="AUMBS" x="24" y="60" width="165" height="18" uuid="a0f58f15-6c1e-443a-ae21-265b2d9b9f57">
+							<property name="local_mesure_unitx" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="local_mesure_unity" value="pixel"/>
+							<property name="local_mesure_unitwidth" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="local_mesure_unitheight" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						</reportElement>
+						<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENNameOfProduct}]]></textFieldExpression>
+					</textField>
+					<textField isStretchWithOverflow="true">
+						<reportElement style="AUMBS" x="24" y="81" width="165" height="20" uuid="626077c2-de3b-4407-9015-6b41874a6a65">
+							<property name="local_mesure_unitx" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="local_mesure_unity" value="pixel"/>
+							<property name="local_mesure_unitwidth" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="local_mesure_unitheight" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						</reportElement>
+						<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENNameOfInsuranceCompany}]]></textFieldExpression>
+					</textField>
+					<textField isStretchWithOverflow="true">
+						<reportElement style="AUMBS" x="24" y="101" width="165" height="20" uuid="ceeb00aa-6eb6-4bb1-ba85-ee4d0c7481e4">
+							<property name="local_mesure_unitx" value="pixel"/>
+							<property name="local_mesure_unity" value="pixel"/>
+							<property name="local_mesure_unitwidth" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="local_mesure_unitheight" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						</reportElement>
+						<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.policyHolderEN}]]></textFieldExpression>
+					</textField>
+					<textField isStretchWithOverflow="true">
+						<reportElement style="AUMBS" x="24" y="121" width="165" height="20" uuid="32fe97c8-4038-46b4-a847-aa46f9513add">
+							<property name="local_mesure_unitx" value="pixel"/>
+							<property name="local_mesure_unity" value="pixel"/>
+							<property name="local_mesure_unitwidth" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="local_mesure_unitheight" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						</reportElement>
+						<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENProposedInsuredName}]]></textFieldExpression>
+					</textField>
+					<textField isStretchWithOverflow="true">
+						<reportElement style="AUMBS" x="24" y="146" width="165" height="20" uuid="62d832c5-0264-4b5c-a337-f150d081a3f2">
+							<property name="local_mesure_unitx" value="pixel"/>
+							<property name="local_mesure_unity" value="pixel"/>
+							<property name="local_mesure_unitwidth" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="local_mesure_unitheight" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						</reportElement>
+						<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.policyTermEN}]]></textFieldExpression>
+					</textField>
+					<textField>
+						<reportElement style="AUMBS" x="230" y="59" width="293" height="20" uuid="7d05dacc-7250-4a95-ad8d-5b06cca2ef89"/>
+						<textFieldExpression><![CDATA[$P{PRODUCT}]]></textFieldExpression>
+					</textField>
+					<textField isStretchWithOverflow="true">
+						<reportElement style="AUMBS" x="230" y="80" width="303" height="20" uuid="e5905bba-ebf9-4d1e-82cd-c17814416e00">
+							<property name="local_mesure_unitx" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="local_mesure_unity" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="local_mesure_unitwidth" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="local_mesure_unitheight" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENCompanyName}]]></textFieldExpression>
+					</textField>
+					<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+						<reportElement style="AUMBS" x="230" y="100" width="246" height="20" uuid="1a64d6e0-1df3-4bba-857a-e423c8d12a7b"/>
+						<textFieldExpression><![CDATA[$F{applicantName}]]></textFieldExpression>
+					</textField>
+					<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+						<reportElement style="AUMBS" x="230" y="120" width="145" height="20" uuid="8d575103-d69e-4612-8b28-50e2b92f3667"/>
+						<textFieldExpression><![CDATA[$F{insuredName}]]></textFieldExpression>
+					</textField>
+					<textField isBlankWhenNull="true">
+						<reportElement style="AUMBS" x="231" y="145" width="24" height="20" uuid="c293f1b6-80e4-481b-8d70-fafa728a7587">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textFieldExpression><![CDATA[$F{benTerm}]]></textFieldExpression>
+					</textField>
+					<textField>
+						<reportElement style="AUMBS" x="260" y="145" width="56" height="20" uuid="14c7cb1c-ddeb-408a-9fd6-a42e235da09a">
+							<property name="local_mesure_unitx" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="local_mesure_unity" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="local_mesure_unitwidth" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="local_mesure_unitheight" value="pixel"/>
+						</reportElement>
+						<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ULP2Years}]]></textFieldExpression>
+					</textField>
+					<textField isStretchWithOverflow="true">
+						<reportElement style="AUMBS" x="385" y="145" width="130" height="20" uuid="77ef5023-bdda-431f-8c3f-1dfde72d0186">
+							<property name="local_mesure_unitx" value="pixel"/>
+							<property name="local_mesure_unity" value="pixel"/>
+							<property name="local_mesure_unitwidth" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="local_mesure_unitheight" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						</reportElement>
+						<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.premiumTermEN}]]></textFieldExpression>
+					</textField>
+					<textField isBlankWhenNull="true">
+						<reportElement style="AUMBS" x="520" y="145" width="24" height="20" uuid="43f03583-b922-4448-a8f0-75f7da198b53">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textFieldExpression><![CDATA[$F{premTerm}]]></textFieldExpression>
+					</textField>
+					<textField>
+						<reportElement style="AUMBS" x="546" y="145" width="56" height="20" uuid="4951147c-5501-438e-a22c-73b002087aac">
+							<property name="local_mesure_unitx" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="local_mesure_unity" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="local_mesure_unitwidth" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="local_mesure_unitheight" value="pixel"/>
+						</reportElement>
+						<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ULP2Years}]]></textFieldExpression>
+					</textField>
+					<textField>
+						<reportElement style="AUMBS" x="386" y="121" width="133" height="20" uuid="71270a97-5fe7-4041-984e-d6ab5c3c63d1">
+							<property name="local_mesure_unitx" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="local_mesure_unity" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="local_mesure_unitwidth" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="local_mesure_unitheight" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ULEBDateOfBirth}+": " + $F{insuredDateOfBirth}]]></textFieldExpression>
+					</textField>
+					<textField>
+						<reportElement style="AUMBS" x="520" y="120" width="170" height="20" uuid="71270a97-5fe7-4041-984e-d6ab5c3c63d1">
+							<property name="local_mesure_unitx" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="local_mesure_unity" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="local_mesure_unitwidth" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="local_mesure_unitheight" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textFieldExpression><![CDATA["( "+$R{DC.HKG.SALES.VNM.agePDF}+"   "+$F{age}+","+"   "+$P{GENDER}+" )"]]></textFieldExpression>
+					</textField>
+					<textField isStretchWithOverflow="true">
+						<reportElement style="AUMBS" x="25" y="190" width="371" height="30" forecolor="#21409A" uuid="25d66f99-8e0d-4a36-bc40-a9c687adee24">
+							<property name="local_mesure_unitx" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="local_mesure_unity" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="local_mesure_unitwidth" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="local_mesure_unitheight" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENPTableHeader2}]]></textFieldExpression>
+					</textField>
+					<textField>
+						<reportElement style="AUMBS" x="24" y="630" width="130" height="18" uuid="0d0c67dd-9d57-4135-b3a3-a32e40661cdf">
+							<property name="local_mesure_unitx" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="local_mesure_unitwidth" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="local_mesure_unitheight" value="pixel"/>
+							<property name="local_mesure_unity" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						</reportElement>
+						<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENp2Content1}]]></textFieldExpression>
+					</textField>
+					<textField isStretchWithOverflow="true">
+						<reportElement style="AUM" x="24" y="648" width="926" height="25" uuid="3c9689b9-d125-498b-8d29-686f02ca877c">
+							<property name="local_mesure_unitx" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="local_mesure_unity" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="local_mesure_unitwidth" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="local_mesure_unitheight" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textElement textAlignment="Justified">
+							<font size="9"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENp2Content1a}]]></textFieldExpression>
+					</textField>
+					<textField isStretchWithOverflow="true">
+						<reportElement style="AUM" x="24" y="674" width="926" height="20" uuid="b850f163-00e7-4240-85dc-ffd2a29e5cdb">
+							<property name="local_mesure_unitx" value="pixel"/>
+							<property name="local_mesure_unity" value="pixel"/>
+							<property name="local_mesure_unitwidth" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="local_mesure_unitheight" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						</reportElement>
+						<textElement textAlignment="Justified">
+							<font size="9"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENp2Content1b}]]></textFieldExpression>
+					</textField>
+					<textField isStretchWithOverflow="true">
+						<reportElement style="AUM" x="24" y="690" width="926" height="18" uuid="2532cf79-356e-4961-95bf-99e50a5395dd">
+							<property name="local_mesure_unitx" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="local_mesure_unity" value="pixel"/>
+							<property name="local_mesure_unitwidth" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="local_mesure_unitheight" value="pixel"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textElement textAlignment="Justified">
+							<font size="9"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENp2Content1c}]]></textFieldExpression>
+					</textField>
+				</frame>
+			</frame>
+			<textField isStretchWithOverflow="true">
+				<reportElement style="AUMB" x="350" y="30" width="328" height="20" uuid="ad3078a4-0da0-4eda-9c08-478cae47b953">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.IllustrationProposalSummary}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="AUMI" x="750" y="205" width="108" height="15" uuid="3f9dd32e-9105-4ef0-8437-84e85cdd09c5">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font size="9" isBold="false" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENUnit}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="AUMBC" x="600" y="240" width="140" height="73" uuid="c60dfda6-dc90-45e9-9c87-1c8daca80d20">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="2.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENP2TableLabel2d}]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement x="110" y="314" width="762" height="30" uuid="cb8adc10-f1f5-4f2d-a47a-58a726e1dbd9">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Dataset2" uuid="48f823b9-c475-4747-a801-c5f976973b3c">
+						<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).dataSource("/map/EPBenefitQuotation")]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="55" uuid="9e7c75ad-a541-4c48-8733-3a0b04c84eda">
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<jr:detailCell style="Table 8_TD" height="30">
+							<box>
+								<topPen lineWidth="0.0"/>
+								<leftPen lineWidth="1.0"/>
+								<bottomPen lineWidth="0.0"/>
+							</box>
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="55" height="30" uuid="0e6a2665-0ed0-452b-8919-c7514d9b7648">
+									<property name="local_mesure_unitwidth" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<printWhenExpression><![CDATA[!$F{policyYear}.equals( $F{benTerm} )]]></printWhenExpression>
+								</reportElement>
+								<box>
+									<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{policyYear}]]></textFieldExpression>
+							</textField>
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="55" height="30" uuid="64d82f0b-b336-49cd-bdd5-c83da8fca39a">
+									<property name="local_mesure_unitwidth" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="local_mesure_unitx" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+									<property name="local_mesure_unity" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+									<printWhenExpression><![CDATA[$F{policyYear}.equals( $F{benTerm} )]]></printWhenExpression>
+								</reportElement>
+								<box>
+									<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{policyYear}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="58" uuid="cb618bc8-f9b2-42c0-844b-4a76817a9a68">
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<jr:detailCell style="Table 8_TD" height="30">
+							<box>
+								<topPen lineWidth="0.0"/>
+								<bottomPen lineWidth="0.0"/>
+							</box>
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="58" height="30" uuid="6af5d410-ad81-423e-8dae-0ba4d235c75b">
+									<property name="local_mesure_unitwidth" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<printWhenExpression><![CDATA[!$F{policyYear}.equals( $F{benTerm} )]]></printWhenExpression>
+								</reportElement>
+								<box>
+									<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{insuredAge}]]></textFieldExpression>
+							</textField>
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="58" height="30" uuid="6b58b13a-091f-4618-81d8-4d0dca10985b">
+									<property name="local_mesure_unitwidth" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="local_mesure_unity" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+									<printWhenExpression><![CDATA[$F{policyYear}.equals( $F{benTerm} )]]></printWhenExpression>
+								</reportElement>
+								<box>
+									<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{insuredAge}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="107" uuid="6e479a8f-a316-4f52-b74b-c280556765f8">
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<jr:detailCell style="Table 8_TD" height="30">
+							<box>
+								<topPen lineWidth="0.0"/>
+								<bottomPen lineWidth="0.0"/>
+							</box>
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="107" height="30" uuid="852f12af-89bf-4a67-bfb5-849a40de9b5c">
+									<property name="local_mesure_unitwidth" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<printWhenExpression><![CDATA[!$F{policyYear}.equals( $F{benTerm} )]]></printWhenExpression>
+								</reportElement>
+								<box>
+									<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{premium}]]></textFieldExpression>
+							</textField>
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="107" height="30" uuid="a984f3bd-8d7c-4277-b4e4-83db497c3e34">
+									<property name="local_mesure_unitwidth" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="local_mesure_unity" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+									<printWhenExpression><![CDATA[$F{policyYear}.equals( $F{benTerm} )]]></printWhenExpression>
+								</reportElement>
+								<box>
+									<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{premium}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="120" uuid="0806d260-c2f0-40d1-b70a-7a3442a8ae4e">
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<jr:detailCell style="Table 8_TD" height="30">
+							<box>
+								<topPen lineWidth="0.0"/>
+								<bottomPen lineWidth="0.0"/>
+							</box>
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="120" height="30" uuid="c64c677e-e87d-45bb-b628-6dabb572b78c">
+									<property name="local_mesure_unitwidth" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<printWhenExpression><![CDATA[!$F{policyYear}.equals( $F{benTerm} )]]></printWhenExpression>
+								</reportElement>
+								<box>
+									<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{totalPremium}]]></textFieldExpression>
+							</textField>
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="120" height="30" uuid="eb9446b4-b0bb-402f-92d2-aae433468a32">
+									<property name="local_mesure_unitwidth" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="local_mesure_unity" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+									<printWhenExpression><![CDATA[$F{policyYear}.equals( $F{benTerm} )]]></printWhenExpression>
+								</reportElement>
+								<box>
+									<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{totalPremium}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="150" uuid="3730e730-00a8-4dad-abcd-fd2681296a7a">
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<jr:detailCell style="Table 8_TD" height="30">
+							<box>
+								<topPen lineWidth="0.0"/>
+								<bottomPen lineWidth="0.0"/>
+							</box>
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="150" height="30" uuid="fd90b4e0-008d-49ef-a045-da1359b7c617">
+									<property name="local_mesure_unitwidth" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<printWhenExpression><![CDATA[!$F{policyYear}.equals( $F{benTerm} )]]></printWhenExpression>
+								</reportElement>
+								<box>
+									<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{sumAssured}]]></textFieldExpression>
+							</textField>
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="150" height="30" uuid="eeeb132f-a21c-4cbe-a021-8bbb44700140">
+									<property name="local_mesure_unitwidth" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="local_mesure_unity" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+									<printWhenExpression><![CDATA[$F{policyYear}.equals( $F{benTerm} )]]></printWhenExpression>
+								</reportElement>
+								<box>
+									<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{sumAssured}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="140" uuid="ed280399-d5b6-448a-9ad8-a82de256b325">
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<jr:detailCell style="Table 8_TD" height="30">
+							<box>
+								<topPen lineWidth="0.0"/>
+								<bottomPen lineWidth="0.0"/>
+							</box>
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="140" height="30" uuid="e4a18c84-c9bd-4061-96f8-c341cfe1b571">
+									<property name="local_mesure_unitwidth" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<printWhenExpression><![CDATA[!$F{policyYear}.equals( $F{benTerm} )]]></printWhenExpression>
+								</reportElement>
+								<box>
+									<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{maturityBenefit}]]></textFieldExpression>
+							</textField>
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="140" height="30" uuid="d3b7320c-3b6a-47c4-97f2-38992d127feb">
+									<property name="local_mesure_unitwidth" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="local_mesure_unity" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+									<property name="local_mesure_unitx" value="pixel"/>
+									<printWhenExpression><![CDATA[$F{policyYear}.equals( $F{benTerm} )]]></printWhenExpression>
+								</reportElement>
+								<box>
+									<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{maturityBenefit}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="130" uuid="e7ba367a-047e-4526-ac41-d2762c3404d8">
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<jr:detailCell style="Table 8_TD" height="30">
+							<box>
+								<topPen lineWidth="0.0"/>
+								<bottomPen lineWidth="0.0"/>
+								<rightPen lineWidth="1.0"/>
+							</box>
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="30" uuid="16f86c75-431a-404d-8f16-6f6b9c292d70">
+									<property name="local_mesure_unitwidth" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="local_mesure_unitx" value="pixel"/>
+									<printWhenExpression><![CDATA[!$F{policyYear}.equals( $F{benTerm} )]]></printWhenExpression>
+								</reportElement>
+								<box>
+									<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{guaranteedCashVal}]]></textFieldExpression>
+							</textField>
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="130" height="30" uuid="5a0b1786-3577-4c68-ac39-53482e383c4d">
+									<property name="local_mesure_unitwidth" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="local_mesure_unitx" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+									<property name="local_mesure_unity" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+									<printWhenExpression><![CDATA[$F{policyYear}.equals( $F{benTerm} )]]></printWhenExpression>
+								</reportElement>
+								<box>
+									<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{guaranteedCashVal}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<textField>
+				<reportElement style="AUMBC" x="223" y="220" width="107" height="93" uuid="7f3c0df4-dbaf-41c8-9d9e-776650efde0f">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="2.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.EN.ENP2TableLabel1a}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="AUMBC" x="450" y="220" width="290" height="20" uuid="dce05b7e-0949-4ebe-802b-46e14bf98a2f">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENP2TableLabel2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="AUMBC" x="450" y="240" width="150" height="73" uuid="211085fd-23ab-476d-82e9-d572819f697a">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="2.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENP2TableLabel2c}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="AUMBC" x="110" y="220" width="55" height="93" uuid="a875bb46-e5ff-4eb9-9690-014786b34857">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="2.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.policyYear}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="AUMBC" x="740" y="220" width="130" height="93" uuid="ad346886-45dd-4383-97eb-fa5a503f37dd">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="2.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENP2TableLabel3b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="AUMBC" x="165" y="220" width="58" height="93" uuid="dabef08a-71f2-451c-8cec-3d3fc1feb33c">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="2.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENP2TableLabelAge}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="AUMBC" x="330" y="220" width="120" height="93" uuid="bf5e752e-4914-4a3f-a636-22135c550322">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="2.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENP2TableLabel1b}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="716">
+			<frame>
+				<reportElement x="5" y="0" width="981" height="716" uuid="3d095057-f294-4f41-917e-49d213258db6">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<leftPen lineWidth="2.0"/>
+					<rightPen lineWidth="2.0"/>
+				</box>
+			</frame>
+			<frame>
+				<reportElement x="0" y="0" width="991" height="716" uuid="5db6c6e0-0c56-4ad9-98d1-9374c9c93ff4">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Double" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Double" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textField pattern="MMMMM dd, yyyy">
+					<reportElement x="730" y="350" width="191" height="20" uuid="0edaa90c-4a8f-41d3-972b-8350bf41590f">
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement>
+						<font isUnderline="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{quatation_date}]]></textFieldExpression>
+				</textField>
+				<textField pattern="MMMMM dd, yyyy">
+					<reportElement x="730" y="442" width="190" height="20" uuid="94ff26e5-da3b-4e32-9209-78452ef1acf4">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement>
+						<font isUnderline="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{quatation_date}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUM" x="693" y="350" width="37" height="20" uuid="a6685250-27b1-498c-9e96-d597b0252c01">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENDate}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUM" x="691" y="442" width="39" height="20" uuid="c4cfd949-f31a-456c-a57b-8563a3b44e33">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENDate}]]></textFieldExpression>
+				</textField>
+				<image>
+					<reportElement x="604" y="351" width="74" height="20" uuid="91eb6c73-7721-4710-97fb-cff1b037842c">
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<printWhenExpression><![CDATA[$F{isPresentImage_1}.equals("yes")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<bottomPen lineWidth="0.0"/>
+					</box>
+					<imageExpression><![CDATA[$F{imagePath}.trim()+""+$F{signatureImage_2}]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="604" y="443" width="36" height="20" uuid="1faa279d-2bd9-4166-959e-466506397e9b">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<printWhenExpression><![CDATA[$F{isPresentImage_1}.equals("yes")]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<bottomPen lineWidth="0.0"/>
+					</box>
+					<imageExpression><![CDATA[$F{imagePath}.trim()+""+$F{signatureImage_1}]]></imageExpression>
+				</image>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUM" x="440" y="350" width="38" height="20" uuid="82cb5c21-fd76-4e9f-bbae-eedad1aec51f">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENSignature}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUM" x="440" y="442" width="38" height="20" uuid="4cf43dff-6bae-4051-9e15-ad5355cd94a8">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENSignature}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement x="481" y="443" width="197" height="20" uuid="9930799a-f350-4844-9dc3-9927ad3d0c62">
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<box>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement x="481" y="351" width="197" height="20" uuid="0689c5f4-a424-40bf-bf29-2a57eccfdcf3">
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<box>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="30" y="50" width="165" height="18" uuid="e2704c7f-27d1-478d-9f85-d12c83e865a6">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENNameOfProduct}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="30" y="71" width="165" height="20" uuid="52ecc2f3-d826-4f9a-bad5-99da9a60e5c2">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENNameOfInsuranceCompany}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="30" y="91" width="165" height="20" uuid="b08e55f4-741b-4bfb-ba44-051c52e4b870">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.policyHolderEN}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="30" y="111" width="165" height="20" uuid="e57b5894-b6e5-4fd9-acc0-9192d304a394">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENProposedInsuredName}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="30" y="136" width="165" height="20" uuid="3c1988e4-1dd9-42c7-934d-a8719c392a69">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.policyTermEN}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="225" y="49" width="293" height="20" uuid="1d28da6a-9ef9-42c9-b262-015405efa26d"/>
+					<textFieldExpression><![CDATA[$P{PRODUCT}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="225" y="70" width="300" height="20" uuid="b2588bbe-f591-4c21-b3f6-724942dcacda">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENCompanyName}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement style="AUMBS" x="225" y="90" width="246" height="20" uuid="c60cfd8c-2011-4f4f-9414-2960280b0c34"/>
+					<textFieldExpression><![CDATA[$F{applicantName}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement style="AUMBS" x="225" y="110" width="143" height="20" uuid="1a310544-103d-4058-b838-b89491236376"/>
+					<textFieldExpression><![CDATA[$F{insuredName}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement style="AUMBS" x="225" y="135" width="24" height="20" uuid="7f2aa0e1-f623-4756-bebd-56b58d112a66">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$F{benTerm}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="254" y="135" width="56" height="20" uuid="265a6678-87d0-486b-91f6-6627a812dd54">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ULP2Years}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUMBS" x="380" y="135" width="130" height="20" uuid="3f8ac0df-f46a-4f1d-8731-1e5c9fb15d45">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.premiumTermEN}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement style="AUMBS" x="515" y="135" width="24" height="20" uuid="ba364ea4-01bf-4aa1-a818-7977ae2caa66">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$F{premTerm}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="541" y="135" width="56" height="20" uuid="2563718a-bdde-43f9-a5ad-04e093df810f">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ULP2Years}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="380" y="110" width="133" height="20" uuid="71270a97-5fe7-4041-984e-d6ab5c3c63d1">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ULEBDateOfBirth}+": " + $F{insuredDateOfBirth}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUMBS" x="517" y="110" width="170" height="20" uuid="71270a97-5fe7-4041-984e-d6ab5c3c63d1">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA["( "+$R{DC.HKG.SALES.VNM.agePDF}+"   "+$F{age}+","+"   "+$P{GENDER}+" )"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUM" x="31" y="442" width="60" height="20" uuid="704f03c0-b8e4-4c8b-9407-d7566145e5e9">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENName}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement style="AUM" isPrintRepeatedValues="false" x="91" y="442" width="319" height="20" uuid="8ee6b193-b831-4842-9196-723e7730ade8">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement>
+						<font fontName="SansSerif" isUnderline="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[($F{agentName}.toUpperCase()+" ("+"MS: "+$F{agentCode}+")")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="AUM" x="31" y="350" width="60" height="20" uuid="cdcf79f4-9097-423c-9ace-43fd9b7d9976">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENName}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement style="AUM" x="91" y="350" width="319" height="20" uuid="75121750-1c69-4287-9981-c1488c340fa1">
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement>
+						<font isUnderline="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{applicantName}.toUpperCase()]]></textFieldExpression>
+				</textField>
+			</frame>
+			<textField isStretchWithOverflow="true">
+				<reportElement style="AUM" x="30" y="320" width="555" height="21" uuid="8edb71ab-e0dc-4583-98d1-de1b5dbc2d28">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.TermCISignatureHead1}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement style="AUM" x="30" y="410" width="555" height="21" uuid="1450175f-f2c2-4fe7-9a90-700c4acab73b">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.TermCISignatureHead2}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement style="AUMB" x="350" y="20" width="328" height="20" uuid="37774b06-4871-4af6-9374-415425c42e3e">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.IllustrationProposalSummary}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement style="AUMBS" x="30" y="220" width="104" height="18" uuid="2ab2a81f-c031-429f-8e81-709a15583d8f">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENSignatureTitle}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement style="AUMBI" x="30" y="238" width="925" height="62" uuid="3ff45185-2bff-4c43-a37b-15321918ff02">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.ENSignatureContent}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="47" splitType="Stretch">
+			<frame>
+				<reportElement x="5" y="0" width="981" height="43" uuid="f8117083-5646-4e89-a62c-a1567803a7ec">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<leftPen lineWidth="2.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="2.0" lineStyle="Solid"/>
+					<rightPen lineWidth="2.0" lineStyle="Solid"/>
+				</box>
+			</frame>
+			<frame>
+				<reportElement x="0" y="0" width="991" height="47" uuid="d349fbf1-f87a-449a-9a18-c49040e47552">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Double" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textField>
+					<reportElement style="AUM" x="921" y="28" width="30" height="15" uuid="75b2b900-fc64-47cb-b9cb-d8272f7cf221">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement>
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.PAFooterPage}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="946" y="28" width="10" height="15" uuid="e213c455-8474-413e-8272-32b16b44ead1">
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<textField evaluationTime="Report">
+					<reportElement x="956" y="28" width="30" height="15" uuid="ef891505-0b71-4686-8290-3d476e269c47">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+					</reportElement>
+					<textElement textAlignment="Left">
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA["/" + $V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUM" x="32" y="0" width="73" height="15" uuid="f5934299-e69c-44f9-b58b-3d3ea833e568">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement>
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.illustrationNumber}]]></textFieldExpression>
+				</textField>
+				<textField pattern="MMMMM dd, yyyy">
+					<reportElement x="106" y="0" width="90" height="15" uuid="bce58009-aa1f-4142-9689-473cfde627bc">
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement>
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{illustrationNumber}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUM" x="32" y="14" width="49" height="15" uuid="db5bf3f8-477c-4b29-9ac9-ef5f8fbfc661">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement>
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.PAFooterPrintDate}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="AUM" x="32" y="29" width="74" height="15" uuid="e66c49d7-c3d1-4abc-9db8-9a6bf782e3b6">
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="local_mesure_unity" value="pixel"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textElement>
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.PAFooterPrintExpiryDate}]]></textFieldExpression>
+				</textField>
+				<textField pattern="MMMMM dd, yyyy">
+					<reportElement x="108" y="29" width="77" height="15" uuid="36a324b7-733d-4a6e-9513-c4a0faba4635">
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="local_mesure_unitx" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement>
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{expiryDateValue}]]></textFieldExpression>
+				</textField>
+				<textField pattern="MMMMM dd, yyyy">
+					<reportElement x="81" y="14" width="252" height="15" uuid="5c6e769a-b778-4bbb-87ed-2cd2c749e9a8">
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement>
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{currentDateValue}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<textField>
+				<reportElement style="AUMI" x="450" y="28" width="251" height="15" uuid="097c7876-01d4-46dd-a97d-7e17acc0fc1a">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$R{DC.HKG.SALES.VNM.illuFooterText}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>
